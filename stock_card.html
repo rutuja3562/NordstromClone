@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .stock_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        margin: 20px;
+      }
+
+      .stock_container > div > img {
+        width: 100%;
+      }
+
+      .child {
+        color: teal;
+        text-decoration: underline;
+      }
+      .child1 {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+      }
+      .stock_h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="stock_h2">Stock Up on the Classics</h1>
+    <div class="stock_container">
+      <div>
+        <img
+          src="https://n.nordstrommedia.com/id/44e86d02-b382-4f79-b0da-b2472aa3abaa.jpeg?h=501&w=536"
+          alt=""
+        />
+        <h3>Marc Jacobs & More</h3>
+        <p>Classic styles, just-right sizes—and up to 55% off.</p>
+        <p class="child">Crossbodies</p>
+      </div>
+      <div>
+        <img
+          src="https://n.nordstrommedia.com/id/4468fd93-77de-427d-84fa-a9796b5c5c52.jpeg?h=501&w=536"
+          alt=""
+        />
+        <h3>Hair Dryers & Styling Tools</h3>
+        <p>From Revlon & More.</p>
+        <p class="child">Hair Tools</p>
+      </div>
+      <div>
+        <img
+          src="https://n.nordstrommedia.com/id/11e40dd1-2a3b-4068-a2ab-2c95c213ebef.jpeg?h=501&w=536"
+          alt=""
+        />
+        <h3>Nike, adidas, ASICS & More</h3>
+        <p>For the gym, the trail, the coffee run—you get the idea.</p>
+        <div class="child1 child">
+          <p>Women's Sneakers</p>
+          <p>Men's Sneakers</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

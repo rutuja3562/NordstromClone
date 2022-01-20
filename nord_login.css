@@ -1,0 +1,35 @@
+#logincontainer {
+    border: 1px solid red;
+    width: 25%;
+    /* height:400px; */
+    margin: 20px auto 40px auto;
+    background-color: black;
+  }
+  #logincontainer > form > input {
+    border: 3px solid #ff006d;
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+    margin: 10px 15px 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+  }
+  #logincontainer > form > input ~ #sub {
+    background-color: white;
+    width: 90%;
+    /* padding:15px; */
+    margin: 10px 15px 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+  }
+  
+  #sign {
+    text-align: center;
+    color: white;
+  }
+  

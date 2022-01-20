@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #container {
+    border: 1px solid red;
+    width: 25%;
+    /* height:400px; */
+    margin: auto;
+    background-color: black;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  #container > form > input {
+    border: 3px solid #ff006d;
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+    margin: 10px 15px 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+  }
+  #container > form > input ~ #sub {
+    background-color: white;
+    width: 89%;
+    /* padding:15px; */
+    margin: 10px 15px 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+  }
+  /* form:hover{
+      background-color: #ff006d;
+      color:blue;
+  } */
+  #sign {
+    text-align: center;
+    color: white;
+  }
+  
