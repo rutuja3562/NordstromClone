@@ -1,59 +1,58 @@
 #footer {
-    background-color: #f9f9f9;
-  }
+  background-color: #f9f9f9;
+}
+.footercontainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.footercontainer p {
+  color: #756e6e;
+}
+
+.footerflex {
+  display: flex;
+  /* flex-direction: column; */
+}
+.download {
+  margin-top: 40px;
+}
+.footericon > div {
+  border: 1px solid black;
+  margin-left: 7px;
+  border-radius: 50%;
+  padding: 7px;
+}
+.footerbottom > p {
+  margin-right: 20px;
+}
+.footerbottom {
+  width: 98%;
+  margin: 20px;
+  display: flex;
+  padding: 10px;
+}
+.footercontainer > div p:hover {
+  color: #0c98bb;
+  text-decoration: underline;
+}
+.footerbottom > p:hover {
+  text-decoration: underline;
+  color: #0c98bb;
+}
+.footerbottom {
+  margin-left: 0px;
+  color: #756e6e;
+}
+@media only screen and (min-width: 0px) and (max-width: 375px) {
   .footercontainer {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 20px;
-    background-color: #f9f9f9;
-    padding: 20px;
+    grid-template-columns: repeat(1, 1fr);
   }
-  .footercontainer p {
-    color: #756e6e;
+}
+@media only screen and (min-width: 376px) and (max-width: 775px) {
+  .footercontainer {
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  .footerflex {
-    display: flex;
-    /* flex-direction: column; */
-  }
-  .download {
-    margin-top: 40px;
-  }
-  .footericon > div {
-    border: 1px solid black;
-    margin-left: 7px;
-    border-radius: 50%;
-    padding: 7px;
-  }
-  .footerbottom > p {
-    margin-right: 20px;
-  }
-  .footerbottom {
-    width: 98%;
-    margin: 20px;
-    display: flex;
-    padding: 10px;
-  }
-  .footercontainer > div p:hover {
-    color: #0c98bb;
-    text-decoration: underline;
-  }
-  .footerbottom > p:hover {
-    text-decoration: underline;
-    color: #0c98bb;
-  }
-  .footerbottom {
-    margin-left: 0px;
-    color: #756e6e;
-  }
-  @media only screen and (min-width: 0px) and (max-width: 375px) {
-    .footercontainer {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-  @media only screen and (min-width: 376px) and (max-width: 775px) {
-    .footercontainer {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
+}

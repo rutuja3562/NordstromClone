@@ -77,11 +77,10 @@ cartArr.map(function (data) {
 function deleteTask(index) {
   //  console.log(index)
   // console.log(cartArr)
-  
-  cartArr.splice(index, 1);
-  console.log(cartArr );
 
- 
+  cartArr.splice(index, 1);
+  console.log(cartArr);
+
   localStorage.setItem("cartItems", JSON.stringify(cartArr));
   displayData(cartArr);
 }
