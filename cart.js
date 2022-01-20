@@ -74,12 +74,12 @@ cartArr.map(function (data) {
   document.querySelector("#wcontainer").append(div);
 });
 
-function deleteTask(index) {
+function deleteTask(data) {
   //  console.log(index)
   // console.log(cartArr)
-
-  cartArr.splice(index, 1);
-  console.log(cartArr);
+console.log(data)
+  cartArr.splice(data, 1);
+  // console.log(cartArr);
 
   localStorage.setItem("cartItems", JSON.stringify(cartArr));
   displayData(cartArr);
